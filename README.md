@@ -6,11 +6,11 @@
 
 ## JavaScript 211 Project: Tic, Tac, Toe
 
-### Part 1: Tic, Tac, Toe in the termial
+### Part 1: Tic, Tac, Toe in the terminal
 
-1. Fork and Clone [Tic, Tac, Toe Repo](https://github.com/AustinCodingAcademy/JS211_TicTacToeProject.git)
+1. Fork and clone [Tic, Tac, Toe Repo](https://github.com/AustinCodingAcademy/JS211_TicTacToeProject.git)
 1. Ensure you have installed all dependencies/packages: `npm i`
-1. Open `main.js` and look at the Unit Test, see what is being called, passed as input arguments, and what the expected result are.
+1. Open `main.js` and look at the Unit Test, see what is being called, passed as input arguments, and what the expected results are.
 1. Ensure you know how to run the unit test:
     * `npm test main.js` + `ctrl + c` to escape.
 1. Use a whiteboard to work out a solution. HOW DOES TIC, TAC, TOE actually work in excruciating detail?
@@ -20,11 +20,11 @@
 1. Work through your bugs.
 1. Use `node main.js` to run the game + `ctrl + c` to escape.
 1. Achieve green checks for each of your unit tests.
-1. Bonus Challenge: Since the game can only be one with three marks in a row, the minimum amount of marks required for a possible win is 5. There is no reason to run `checkForWin()` for marks 1-4. Adjust the program to only run `checkForwin()` after at least 5 moves have been made.
+1. Bonus Challenge: Since the game can only be won with three marks in a row, the minimum amount of marks required for a possible win is 5. There is no reason to run `checkForWin()` for marks 1-4. Adjust the program to only run `checkForwin()` after at least 5 moves have been made.
 
 #### Part 2: Use the DOM to build a GUI for your game
 
-1. Open `index.html` to find a pre-build 3x3 grid using `<td>` tags (table-data)
+1. Open `index.html` to find a pre-built 3x3 grid using `<td>` tags (table-data)
     * This html file is styled with `tictactoe.css`
     * It also has a script tag that links it to `dom-tictactoe.js`
 1. Open `dom-tictactoe.js`. You'll find starter code that helps you attach the logic from part 1 to the DOM so a user can use the screen instead of the terminal to play the game.
@@ -44,7 +44,7 @@
 #### Hints
 
 1. Run your unit tests first!!
-1. Use [repl.it](https://www.repl.it) to write the solution code first. (its a faster environment vs using the `node main.js` command over and over again.)
+1. Use [repl.it](https://www.repl.it) to write the solution code first. (it's a faster environment vs using the `node main.js` command over and over again.)
 1. Read the comments in `main.js`
 1. Use the [JS Docs at W3S on Accessing the First Array Element](https://www.w3schools.com/js/js_arrays.asp)
 1. Push yourself further.
@@ -122,12 +122,12 @@ example `node 01week/rockPaperScissors.js`
 
 ### Running Tests
 
-Tests are a great way to make sure you code works the way you planned it would,
+Tests are a great way to make sure your code works the way you planned it would,
 and to make sure you don't break something in the future. We will be using them
 to test our understanding of the lesson. It's also our main way to assign grades
 for an assignment.
 
-To run a the tests on a file run `npm test path/to/file.js`, etc.
+To run the tests on a file run `npm test path/to/file.js`, etc.
 
 ### Running the Linter
 
