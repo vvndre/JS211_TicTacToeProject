@@ -36,13 +36,13 @@ const addMarker = (id) => {
   // document
   // .innerHTML 
   
-  // Arrange the above pieces into one a single line of code
+  // Arrange the above pieces into a single line of code
   // to add an X or O to the board to the DOM so it can be scene on the screen.
 }
 
 // passes the element's id attribute from HTML to be used
 const updateBoard = (id) => {
-  // parses the id string into a number then captures the first and last part the newly create number as row & column
+  // parses the id string into a number then captures the first and last part of the newly created number as row & column
   const row = parseInt(id.charAt(0))
   const column = parseInt(id.charAt(2)) 
 
